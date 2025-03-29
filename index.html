@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mozem byt tvoj fool?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="text">
+            <img src="clown.png">
+            <h1 class="hlavne">🤡 Ahoj Bobí! 🤡</h1>
+            <h2 class="hlavne">Keďže sa blíži April Fool's a ešte si sa ma neopýtala, či budem tvoj fool 🙄</h2>       
+            <h5 class="hlavne">Tak sa musím opýtať. 🙄 Môžem být tvoj fool? 😳<br><br> (pred vybratím možnosti stlač klikny mimo nech ti nehraju 2 songy naraz)</h5>
+            <div class="tlacitko">
+                <button id="ano" onclick="selectOption('Ano')">Ano</button>
+                <button id="nie" onclick="selectOption('Nie')">Nie</button>
+            </div>
+        </div>
+    </div>
+
+    <audio id="backgroundMusic" src="cntower.mp3" loop></audio>
+    <audio id="yesMusic" src="earnedit.mp3"></audio>
+    <audio id="noMusic" src="wifiskeleton.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
